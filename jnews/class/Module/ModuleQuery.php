@@ -194,6 +194,34 @@ Class ModuleQuery {
 
 	}
 
+public function build_query() {
+    $post_type = $this->params['post_type'];
+    $limit = $this->params['limit'];
+    $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
+
+    if ( $this->params['sort_by'] === 'like' ) {
+        $orderby = 'meta_value_num';
+        $meta_key = 'jnews_post_like_count';
+    } else {
+        $orderby = $this->params['orderby'];
+        $meta_key = '';
+    }
+
+    $args = array(
+        'post_type' => $post_type,
+        'posts_per_page' => $limit,
+        'paged' => $paged,
+        'meta_key' => $meta_key,
+        'orderby' => $orderby,
+        'order' => $this->params['order'],
+    );
+
+    $query = new WP_Query( $args );
+
+    return $query;
+}
+
+
 	/**
 	 * WordPress Default Query
 	 *
