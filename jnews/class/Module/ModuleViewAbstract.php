@@ -465,8 +465,6 @@ abstract class ModuleViewAbstract {
 		if ( get_theme_mod( 'jnews_show_block_meta', true ) ) {
 			$trending   = ( vp_metabox( 'jnews_single_post.trending_post', null, $post->ID ) ) ? "<div class=\"jeg_meta_trending\"><a href=\"" . get_the_permalink( $post ) . "\"><i class=\"fa fa-bolt\"></i></a></div>" : "";
 			$view_count = jnews_meta_views( $post->ID );
-			$likes      = get_post_meta( $post->ID, 'mdp_liker', true );
-   			$like_count = isset( $likes['likes']['positive'] ) ? $likes['likes']['positive'] : 0;
 
 			if ( jnews_is_review( $post->ID ) ) {
 				$output .= "<div class=\"jeg_post_meta\">";
@@ -478,7 +476,6 @@ abstract class ModuleViewAbstract {
 				$output .= $trending;
 				$output .= get_theme_mod( 'jnews_show_block_meta_date', true ) ? "<div class=\"jeg_meta_date\"><a href=\"" . get_the_permalink( $post ) . "\" ><i class=\"fa fa-clock-o\"></i> " . $this->format_date( $post ) . "</a></div>" : "";
 				$output .= get_theme_mod( 'jnews_show_block_meta_views', false ) ? "<div class=\"jeg_meta_views\"><a href=\"" . get_the_permalink( $post->ID ) . "\" ><i class=\"fa fa-eye\"></i> {$view_count} </a></div>" : "";
-				$output .= "<div class=\"jeg_meta_likes\"><i class=\"fa fa-thumbs-o-up\"></i> {$like_count} </div>";
 				$output .= "</div>";
 			}
 		}
