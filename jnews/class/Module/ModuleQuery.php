@@ -371,6 +371,11 @@ Class ModuleQuery {
 					)
 				);
 			}
+			if ($this->options['sort_by'] === 'like') {
+				$args['meta_key'] = 'liker_like_count';
+				$args['orderby'] = 'meta_value_num';
+				$args['order'] = 'DESC';
+			}
 			if ( $attr['content_type'] === 'video' ) {
 				$attr['video_only'] = true;
 			}
