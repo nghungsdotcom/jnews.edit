@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'jvcicon';
+  src: url('../fonts/jvcicon.eot?wsn59x');
+  src: url('../fonts/jvcicon.eot?wsn59x#iefix') format('embedded-opentype'), url('../fonts/jvcicon.ttf?wsn59x') format('truetype'), url('../fonts/jvcicon.woff?wsn59x') format('woff'), url('../fonts/jvcicon.svg?wsn59x#jvcicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+#customize-control-jnews_option-view_counter-general-time_between_counts-number,
+#customize-control-jnews_option-view_counter-general-time_between_counts-type {
+  width: 47%;
+  float: none;
+}
+
+#sub-accordion-section-jnews_view_counter.jeg-section-loaded.open {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#sub-accordion-section-jnews_view_counter.jeg-section-loaded.open > li {
+  flex: 0 1 auto;
+}
+
+#customize-theme-controls .customize-pane-child.accordion-section-content#sub-accordion-section-jnews_view_counter {
+  min-height: auto;
+}
+
+#customize-control-jnews_option-view_counter-general-time_between_counts-type .selectize-dropdown {
+  position: absolute;
+  top: 32px !important;
+}
+
+/* Icons */
+#accordion-section-jnews_view_counter > .accordion-section-title:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jvcicon' !important;
+  content: '\e900';
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+#accordion-section-jnews_view_counter > .accordion-section-title {
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  color: #212121;
+  padding-left: 40px;
+}
+
+#accordion-section-jnews_view_counter > .accordion-section-title:before {
+  color: #0085ba;
+  font-weight: normal !important;
+  font-size: 14px;
+  margin-right: 5px;
+  position: absolute;
+  left: 0;
+  width: 40px;
+  text-align: center;
+}
+
+/* RTL Section */
+.rtl #accordion-section-jnews_view_counter > .accordion-section-title:before {
+	right: 0;
+	left: unset;
+}
+
+.rtl #accordion-section-jnews_view_counter > .accordion-section-title {
+	padding-right: 40px;
+	padding-left: unset;
+}

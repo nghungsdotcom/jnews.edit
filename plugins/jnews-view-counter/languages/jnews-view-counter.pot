@@ -1,0 +1,226 @@
+# Copyright (C) 2023 Jegtheme
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: JNews - View Counter 11.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Jegtheme <support@jeghteme.com>\n"
+"Language-Team: Jegtheme <support@jeghteme.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-03T07:27:21+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: jnews-view-counter\n"
+
+#. Plugin Name of the plugin
+msgid "JNews - View Counter"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://jegtheme.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Custom view counter for JNews"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jegtheme"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://jegtheme.com"
+msgstr ""
+
+#: class/class-dashboard.php:98
+#: class/class-frontend.php:290
+msgid "Views"
+msgstr ""
+
+#: class/class-frontend.php:245
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class/class-frontend.php:245
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class/class-template.php:216
+msgid "Post View Stats"
+msgstr ""
+
+#: class/options/class-options.php:74
+msgid "JNews : View Counter Setting"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:8
+msgid "Data Setting"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:17
+msgid "Limit Data"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:18
+msgid "Limit the view count data to reduce the database space usage. Total view count would be preserved however, the detailed view count information would be lost."
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:27
+msgid "Data Expiration"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:28
+msgid "Data older than the specified time frame ( days ) will be automatically discarded."
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:46
+msgid "View Setting"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:55
+msgid "Count Interval"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:56
+msgid "Enter time length"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:70
+msgid "Unit"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:71
+msgid "Enter time Unit"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:74
+msgid "minutes"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:75
+msgid "hours"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:76
+msgid "days"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:77
+msgid "weeks"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:78
+msgid "months"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:79
+msgid "years"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:89
+msgid "Strict Count"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:90
+msgid "Prevents counting the same visitor view within the View Count Interval that uses private browsing or clearing cookies"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:99
+msgid "Exclude Visitors"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:100
+msgid "Ignores view from the selected visitor type"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:103
+msgid "Robots"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:104
+msgid "Logged in users"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:105
+msgid "Guest"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:106
+msgid "Selected user roles"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:116
+msgid "Exclude Roles"
+msgstr ""
+
+#: class/options/sections/view-counter-customizer.php:117
+msgid "Ignores view from the selected user roles. Requires `Selected user roles` to be included in `Exclude Visitors`."
+msgstr ""
+
+#: template/post-stats-most-viewed.php:24
+#: template/post-stats-trending-now.php:24
+msgid "View Post"
+msgstr ""
+
+#: template/post-stats-most-viewed.php:32
+#: template/post-stats-trending-now.php:32
+msgid "Looks like your site's activity is a little low right now.<br>Spread the word and come back later!"
+msgstr ""
+
+#: template/post-stats.php:13
+msgid "Today"
+msgstr ""
+
+#: template/post-stats.php:14
+msgid "24H"
+msgstr ""
+
+#: template/post-stats.php:15
+msgid "7D"
+msgstr ""
+
+#: template/post-stats.php:16
+msgid "30D"
+msgstr ""
+
+#: template/post-stats.php:17
+msgid "Custom"
+msgstr ""
+
+#: template/post-stats.php:29
+msgid "Time Range"
+msgstr ""
+
+#: template/post-stats.php:30
+msgid "Date Range"
+msgstr ""
+
+#: template/post-stats.php:44
+msgid "Minute(s)"
+msgstr ""
+
+#: template/post-stats.php:45
+msgid "Hour(s)"
+msgstr ""
+
+#: template/post-stats.php:46
+msgid "Day(s)"
+msgstr ""
+
+#: template/post-stats.php:62
+msgid "To"
+msgstr ""
+
+#: template/post-stats.php:74
+msgid "Most Viewed"
+msgstr ""
+
+#: template/post-stats.php:75
+msgid "Trending Now"
+msgstr ""

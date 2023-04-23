@@ -1,0 +1,95 @@
+# Copyright (C) 2023 Jegtheme
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: JNews - Like 11.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Jegtheme <support@jeghteme.com>\n"
+"Language-Team: Jegtheme <support@jeghteme.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-02-28T08:01:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: jnews-like\n"
+
+#. Plugin Name of the plugin
+msgid "JNews - Like"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "http://jegtheme.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "JNews Like functionality"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jegtheme"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://jegtheme.com"
+msgstr ""
+
+#: class.jnews-like-option.php:46
+msgid "Like Button Setting"
+msgstr ""
+
+#: class.jnews-like.php:226
+#: class.jnews-like.php:249
+msgid "Thanks for your vote!"
+msgstr ""
+
+#: class.jnews-like.php:236
+#: class.jnews-like.php:259
+msgid "Internal DB Error!"
+msgstr ""
+
+#: class.jnews-like.php:278
+msgid "You must login to vote!"
+msgstr ""
+
+#: class.jnews-like.php:484
+#: class.jnews-like.php:512
+msgid "Liked Post"
+msgstr ""
+
+#: class.jnews-like.php:492
+#: class.jnews-like.php:516
+msgid "Disliked Post"
+msgstr ""
+
+#: jnews-like.php:85
+msgid "Like Button"
+msgstr ""
+
+#: like-option.php:14
+msgid "Like Option"
+msgstr ""
+
+#: like-option.php:25
+msgid "Show Like Button"
+msgstr ""
+
+#: like-option.php:26
+msgid "Adjust the post like button on post meta container."
+msgstr ""
+
+#: like-option.php:29
+msgid "Like + Dislike"
+msgstr ""
+
+#: like-option.php:30
+msgid "Only Like"
+msgstr ""
+
+#: like-option.php:31
+msgid "Hide All"
+msgstr ""
+
+#: template/post-list.php:39
+msgid "by"
+msgstr ""

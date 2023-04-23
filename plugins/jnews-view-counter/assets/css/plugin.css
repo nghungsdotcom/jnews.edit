@@ -1,0 +1,182 @@
+/** Account Page: Stats **/
+.jnews-view-stats-chart-wrapper {
+  margin-bottom: 15px;
+}
+
+/** Disable arrow up/down **/
+/** Chrome, Safari, Edge, Opera **/
+.jnews-view-stats-chart-wrapper .custom-time-range #time-quantity::-webkit-outer-spin-button,
+.jnews-view-stats-chart-wrapper .custom-time-range #time-quantity::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/** Firefox **/
+.jnews-view-stats-chart-wrapper .custom-time-range #time-quantity {
+  padding: 7px 12px;
+  -moz-appearance: textfield;
+}
+
+.jnews-view-stats-chart-wrapper .custom-range-field > .form-group:not(.active),
+.jnews-view-stats-chart-wrapper .custom-range-nav-field:not(.active),
+.jnews-view-stats-chart-wrapper .custom-range-field:not(.active) {
+  display: none;
+}
+
+/** Filter Date **/
+/** Chrome, Safari, Edge, Opera **/
+.custom-time-range #time-quantity::-webkit-outer-spin-button,
+.custom-time-range #time-quantity::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/** Firefox **/
+.custom-time-range #time-quantity {
+  padding: 7px 12px;
+  -moz-appearance: textfield;
+}
+
+.jnews-view-stats-chart-nav,
+.jnews-view-stats-chart-nav .time-range-field,
+.jnews-view-stats-chart-nav .custom-range-field,
+.jnews-view-stats-chart-nav .custom-range-field > * {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jnews-view-stats-chart-nav .time-range-field,
+.jnews-view-stats-chart-nav .custom-range-field {
+  margin: 0 -10px 10px;
+}
+
+.jnews-view-stats-chart-nav > * {
+  width: auto;
+  min-width: unset;
+  flex: 0 0 100%;
+  margin: 0 10px;
+}
+
+.jnews-view-stats-chart-nav .date-range > *,
+.jnews-view-stats-chart-nav .custom-time-range > *,
+.jnews-view-stats-chart-nav .time-range-field > * {
+  flex: 0 0 100%;
+  margin: 0 10px;
+}
+
+.jnews-view-stats-chart-nav .date-range,
+.jnews-view-stats-chart-nav .custom-time-range {
+  flex: 0 0 100%;
+  margin: 0;
+}
+
+.jnews-view-stats-chart-nav .date-range > *,
+.jnews-view-stats-chart-nav .custom-time-range > * {
+  text-align: center;
+}
+
+.jnews-view-stats-chart-nav .date-range > * {
+  position: relative;
+}
+
+.jnews-view-stats-chart-wrapper .custom-range-field .date-range input {
+  width: 100%;
+  padding: 7px 25px;
+  text-align: center;
+}
+
+.jnews-view-stats-chart-wrapper .custom-range-field .date-range .form-group i {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-5%, -50%);
+  font-size: 15px;
+}
+
+.jnews-view-stats-post-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.jnews-view-stats-post-nav li {
+  flex: 1 0 33.333333333%;
+  border: 1px solid #eee;
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 36px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.jnews-view-stats-post-nav li {
+  border-bottom: 2px solid #eee;
+  border-right: 0;
+}
+
+.jnews-view-stats-post-nav li:nth-child(2) {
+  border-right: 1px solid #eee;
+}
+
+.jnews-view-stats-post-nav li:hover {
+  color: #212121;
+  background: #fafafa;
+}
+
+.jnews-view-stats-post-nav li.active {
+  border-bottom-color: var(--j-accent-color);
+  color: #212121;
+}
+
+.jnews-view-stats-post-content-wrapper {
+  position: relative;
+}
+
+/** Responsive **/
+@media screen and (min-width: 408px) {
+  .jnews-view-stats-chart-nav .date-range > *,
+  .jnews-view-stats-chart-nav .custom-time-range > *,
+  .jnews-view-stats-chart-nav .time-range-field > * {
+    flex: 0 0 40%;
+    margin: 0 10px;
+  }
+
+  .jnews-view-stats-chart-nav .date-range label {
+    flex: 0 0 auto;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .jnews-view-stats-chart-nav {
+    margin-bottom: 10px;
+  }
+
+  .jnews-view-stats-chart-nav > * {
+    flex: 0 0 50%;
+  }
+
+  .jnews-view-stats-chart-nav .time-range-field,
+  .jnews-view-stats-chart-nav .custom-range-field {
+    margin: 0 -10px;
+  }
+
+  .jnews-view-stats-chart-nav .date-range,
+  .jnews-view-stats-chart-nav .custom-time-range {
+    justify-content: flex-end;
+  }
+
+  .jnews-view-stats-chart-nav .custom-time-range > * {
+    flex: 0 0 40%;
+  }
+
+  .jnews-view-stats-chart-nav .custom-time-range > *:first-child {
+    flex: 0 0 20%;
+  }
+}
