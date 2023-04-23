@@ -341,9 +341,9 @@ Class ModuleQuery {
 				$args['order']    = 'DESC';
 			}
 
-			if ( 'like' === $attr['sort_by'] ) {
+			if ( 'most_liker' === $attr['sort_by'] ) {
 				$args['orderby']  = 'meta_value_num';
-				$args['meta_key'] = 'jnews_like_counter';
+				$args['meta_key'] = 'liker_count';
 				$args['order']    = 'DESC';
 			}
 
