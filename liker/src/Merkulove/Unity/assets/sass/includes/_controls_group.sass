@@ -1,0 +1,43 @@
+// Sides
+
+.mdp-controls-sides
+  display: flex
+  justify-content: space-between
+
+  .mdp-controls-sides-single
+    margin-right: 24px
+
+  .mdc-text-field
+
+    &.mdc-input-width
+      max-width: 80px
+
+  .mdc-select
+
+    &.mdc-select-width,
+    .mdc-select-width
+      max-width: 100px
+
+  label
+    text-transform: capitalize
+
+  .mdp-controls-sides-lock
+    max-height: 56px
+    width: 16px
+    background: url( '../images/ui/link.svg' ) center center no-repeat
+    background-size: contain
+    opacity: .4
+    cursor: pointer
+    transition: .2s
+    filter: grayscale(1)
+
+    &:hover
+      opacity: 1
+
+    &.active-lock
+      opacity: .8
+      filter: none
+
+      &:hover
+        opacity: 1
+        filter: none
